@@ -1,0 +1,11 @@
+GET https://localhost:3000/routes
+
+### Create aroute
+POST https://localhost:3000/routes
+Content-Type: application/json
+
+{
+    "name": "rota test",
+    "source_id": "12121",
+    "description_id": "01010101"
+}
